@@ -190,6 +190,7 @@ button:hover {
 
 .mission {
   display: grid;
+  padding-inline: 20%;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
 }
@@ -321,6 +322,10 @@ footer button:hover {
     width: 600px;
     left: 50px;
     right: 50px;
+  }
+
+  .mission {
+    padding-inline: 80px;
   }
 
   .graph img,
